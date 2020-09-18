@@ -1,0 +1,133 @@
+body 
+{
+	margin:100;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
+}
+
+.header
+{
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header a, header, button
+{
+	margin:10px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header button
+{
+	background: #4484f1
+	padding 8px;
+	font-size: 15px;
+	color: #FFF;
+	border-radius: 10px;
+	font-weight: bold;
+
+}
+
+.main
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.googlelogo
+{
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.search-box input
+{
+	height: 40px;
+	width: 444px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.basdepage
+{
+	display: flex;
+	justify-content: center;
+	align-content: center
+}
+
+.footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #cdcecc;
+}
+
+.country
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.footer-links
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+
+.bottom
+{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.footer1
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	justify-content: center;
+	
+}
+
+.footer-links
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-left
+{
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+}
+
+.footer-right
+{
+	display: flex;
+	justify-content: flex-end;
+	align-content: right;
+}
+
+
+
+
+
+
